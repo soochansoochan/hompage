@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#publications">논문</a></li>
+                <li><a href="#skills">기술</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">AI 연구원</h1>
+                <p class="hero-subtitle">공정 최적화와 해석가능한 AI로 산업 문제를 해결합니다</p>
+                <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+            </div>
+        </div>        https://github.com/your-username/your-repo-name.git
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>안녕하세요!</h3>
+                    <p>저는 공정 도메인에서 데이터 기반 의사결정을 가능하게 하는 해석가능한 AI 연구자입니다. 산업공학의 최적화 이론과 머신러닝을 결합하여 제조 공정의 불량 원인을 예측하고 개선하는 연구를 진행하고 있습니다.</p>
+                    <ul class="about-list">
+                        <li>🎓 학부: 컴퓨터과학/산업공학 복수전공</li>
+                        <li>📚 게재: KCI 논문 1저자 (공정 불량 예측 해석가능 AI)</li>
+                        <li>💼 전문성: XAI, 공정 데이터 분석, 공정 최적화</li>
+                        <li>🔬 관심분야: 공정 불량 원인 규명, 공정 설계 최적화</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>1</h4>
+                        <p>KCI 논문 발표 (1저자)</p>
+                    </div>
+                    <div class="stat">
+                        <h4>5+</h4>
+                        <p>공정 데이터 프로젝트</p>
+                    </div>
+                    <div class="stat">
+                        <h4>2</h4>
+                        <p>복수전공</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">주요 프로젝트</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🔍</div>
+                        <h3>공정 불량 원인 예측 AI</h3>
+                    </div>
+                    <p>SHAP과 LIME을 활용한 해석가능한 AI 모델로 반도체 공정의 불량 원인을 예측합니다. 정확도 92%, AUC 0.89를 달성했으며 KCI 논문으로 발표했습니다. <strong>[KCI 논문 1저자 게재]</strong></p>
+                    <div class="tech-tags">
+                        <span class="tag">XAI</span>
+                        <span class="tag">SHAP</span>
+                        <span class="tag">공정 데이터</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">�</div>
+                        <h3>공정 품질 예측 시스템</h3>
+                    </div>
+                    <p>Random Forest와 Gradient Boosting을 활용한 제조 공정의 품질 예측 모델입니다. 결함 감지율 95%를 달성했으며 산업 현장에 배포되어 연간 불량률을 12% 감소시켰습니다.</p>
+                    <div class="tech-tags">
+                        <span class="tag">XGBoost</span>
+                        <span class="tag">공정 최적화</span>
+                        <span class="tag">시계열 분석</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">⚙️</div>
+                        <h3>공정 설계 인자 최적화</h3>
+                    </div>
+                    <p>Bayesian Optimization과 산업공학 DOE를 결합하여 공정 설계 인자를 최적화합니다. 생산량 15% 증가, 불량률 18% 감소를 달성했습니다. 산업공학 이론과 AI의 융합 연구입니다.</p>
+                    <div class="tech-tags">
+                        <span class="tag">DOE</span>
+                        <span class="tag">베이지안 최적화</span>
+                        <span class="tag">공정 개선</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">�</div>
+                        <h3>공정 이상 탐지 및 진단</h3>
+                    </div>
+                    <p>Isolation Forest와 Autoencoder 앙상블을 사용한 실시간 공정 이상 탐지 시스템입니다. 조기 경고로 불량 발생 전 사전 대응이 가능하며, 공정 센서 데이터에서 97% 정확도를 달성했습니다.</p>
+                    <div class="tech-tags">
+                        <span class="tag">이상탐지</span>
+                        <span class="tag">AutoEncoder</span>
+                        <span class="tag">실시간 모니터링</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">기술 스택</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>프로그래밍 & 데이터</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">R</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>머신러닝 & XAI</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">XAI (SHAP/LIME)</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 93%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Scikit-learn</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">TensorFlow/PyTorch</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>공정 분석 & 최적화</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">공정 데이터 분석</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 94%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">DOE (Design of Experiments)</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 91%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">공정 최적화</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 89%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>도구 & 라이브러리</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">Pandas/NumPy</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 93%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Git/Docker</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">AWS/클라우드</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">학술 활동</h2>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="pub-header">
+                        <span class="pub-badge">논문</span>
+                        <h3>해석가능한 AI를 이용한 반도체 공정 불량 원인 예측</h3>
+                    </div>
+                    <p class="pub-meta"><strong>저자:</strong> 1저자 | <strong>학술지:</strong> KCI 등재 학술지 | <strong>연도:</strong> 2024</p>
+                    <p class="pub-description">SHAP(SHapley Additive exPlanations)을 활용하여 반도체 제조 공정에서의 불량 원인을 해석가능하게 예측하는 모델을 제안했습니다. 정확도 92%, AUC 0.89로 높은 성능을 달성했으며, 산업 현장에서 실제 공정 개선에 활용 가능한 방법론을 제시했습니다.</p>
+                    <div class="pub-tags">
+                        <span class="tag">해석가능한 AI</span>
+                        <span class="tag">XAI</span>
+                        <span class="tag">공정 불량</span>
+                        <span class="tag">SHAP</span>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="pub-header">
+                        <span class="pub-badge">연구 중</span>
+                        <h3>공정 설계 인자 최적화를 위한 베이지안 최적화와 DOE 융합</h3>
+                    </div>
+                    <p class="pub-meta"><strong>상태:</strong> 논문 준비 중 | <strong>협력:</strong> 산업체</p>
+                    <p class="pub-description">산업공학의 실험계획법(DOE)과 머신러닝 기반 베이지안 최적화를 결합하여 공정 설계 인자를 효율적으로 최적화하는 방법을 개발하고 있습니다. 실제 반도체 공정에 적용하여 생산성 15% 증가와 불량률 18% 감소를 달성했습니다.</p>
+                    <div class="pub-tags">
+                        <span class="tag">공정 최적화</span>
+                        <span class="tag">DOE</span>
+                        <span class="tag">베이지안 최적화</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="container">
+            <h2 class="section-title">연락처</h2>
+            <div class="contact-content">
+                <p>AI 대학원 진학에 관심이 있으신가요? 또는 공정 최적화 연구에 대해 논의하고 싶으신가요?</p>
+                <div class="contact-methods">
+                    <a href="mailto:your.email@example.com" class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h4>이메일</h4>
+                        <p>your.email@example.com</p>
+                    </a>
+                    <a href="https://github.com" class="contact-card">
+                        <div class="contact-icon">💻</div>
+                        <h4>GitHub</h4>
+                        <p>github.com/yourprofile</p>
+                    </a>
+                    <a href="https://linkedin.com" class="contact-card">
+                        <div class="contact-icon">🔗</div>
+                        <h4>LinkedIn</h4>
+                        <p>linkedin.com/in/yourprofile</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AI Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
